@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const RESULT_AMOUNT = 10;
 
-const API_KEY = "02c9317febab7e4431b0462627ce4df1";
+const API_KEY = process.env.REACT_APP_SKIDDLE_API_KEY;
 
 const API_URL = `https://www.skiddle.com/api/v1/events/search/?api_key=`;
 
