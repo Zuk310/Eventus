@@ -1,5 +1,6 @@
 
-import { useContext } from 'react/cjs/react.development';
+
+import { useContext } from "react";
 import {ReactComponent as LocationIcon} from '../../assets/iconmonstr-location-2.svg'
 import { MapContext } from '../../context/map.context';
 
