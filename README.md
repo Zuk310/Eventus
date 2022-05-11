@@ -4,4 +4,4 @@
 
 Search events by name and location
 
-### Location can be search via address or using coords by using the map
+Location can be search via address or using coords by using the map
