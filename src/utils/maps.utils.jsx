@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "AIzaSyAt8R4Za2KdFB7nVKKdEJ0fcKf9SHNjBjQ";
+const API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
 
 const API_URL = `https://maps.googleapis.com/maps/api/geocode/json?address=`;
 
