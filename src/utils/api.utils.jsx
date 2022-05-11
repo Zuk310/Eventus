@@ -21,7 +21,7 @@ const apiSearchFunction = (useInput, lat, lng) => {
     }
     else{
       // console.log(`${API_URL}${API_KEY}&latitude=${lat}&longitude=${lng}&radius=50&keyword=${useInput}`);
-      return axios.get(`${API_URL}${API_KEY}&latitude=${lat}&longitude=${lng}&radius=50&keyword=${useInput}`)
+      return axios.get(`${API_URL}${API_KEY}&latitude=${lat}&longitude=${lng}&radius=100&keyword=${useInput}`)
       .then(res => res.data)
       .then(data => data)
       .catch(err => {
