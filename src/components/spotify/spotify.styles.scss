@@ -1,0 +1,19 @@
+.spotitfy-icon-container {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 3px;
+    margin: 5px;
+
+    .spotitfy-icon {
+      justify-self: center;
+      width: 70%;
+      height: 100%;
+      border: none;
+      fill:white;
+    }
+}

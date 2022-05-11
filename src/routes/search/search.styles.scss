@@ -1,0 +1,39 @@
+
+.search-events-form-container{
+  display: grid;
+  grid-template-columns: repeat(1, 600px);
+  column-gap: 10px;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://d1plawd8huk6hh.cloudfront.net/images/video/skiddle.jpg);
+  background-size: cover;
+
+  .search-btn{
+    width: 90px;
+    justify-self: center;
+    background-color: aquamarine;
+  }
+}
+
+.locationSearch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.results-container{
+  background-color: #dfd9d9;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 10px;
+    row-gap: 50px;
+    padding: 20px 40px;
+}
+
+// #map {
+//   height: 400px;
+//   /* The height is 400 pixels */
+//   width: 100%;
+//   /* The width is the width of the web page */
+// }
