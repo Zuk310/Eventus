@@ -6,6 +6,7 @@ const API_URL = `https://maps.googleapis.com/maps/api/geocode/json?address=`;
 
 
 const mapSearchToCoords = (useInput) => {
+  console.log("Google: "+ API_KEY);
     return axios.get(`${API_URL}${useInput}&key=${API_KEY}`)
     .then(res => res.data)
     .then(data => data.results)
