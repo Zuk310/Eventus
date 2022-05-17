@@ -56,6 +56,7 @@ const SearchPage = () => {
       apiSearchLat,
       apiSearchLng
     );
+    console.log(res.results);
     await setApiData(res.results);
     resetFormFields();
   };
