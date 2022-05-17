@@ -11,7 +11,7 @@ const API_ARTIST_URL = "https://www.skiddle.com/api/v1/artist/";
 const API_EVENT_URL = "https://www.skiddle.com/api/v1/events/";
 
 const apiSearchFunction = (useInput, lat, lng) => {
-  console.log("Skiddle: " +API_KEY);
+  console.log("Skiddle key: " +API_KEY);
     if(lat === undefined||lng === ""){
       return axios.get(`${API_URL}${API_KEY}&keyword=${useInput}`)
       .then(res => res.data)
