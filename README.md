@@ -1,4 +1,4 @@
-# A project to practice react workflow and usage of api calles with useContext
+# A project to practice react workflow and usage of api calls with useContext
 
 ## Eventus
 
